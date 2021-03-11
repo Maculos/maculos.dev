@@ -28,8 +28,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -400%);
-  font-size: 300%;
+  transform: translate(-50%, -300%);
+  font-size: 600%;
 }
 .center {
   display: block;
