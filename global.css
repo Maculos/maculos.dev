@@ -1,13 +1,13 @@
 body {
   margin: 0px;
-  background-color:#333;
+  background-color:#222;
 }
 .navBar {
   list-style-type: none;
   margin: 0px;
   padding: 8px;
   overflow: hidden;
-  background-color: #777;
+  background-color: #333;
 }
 .navItem {
   float: right;
@@ -28,8 +28,37 @@ body {
   background-color: #333;
 }
 .button {
-    background-color: rgb(250, 154, 109);
-    border-color: rgb(163, 100, 70);
-    font-size: x-large;
-    font-weight: 600;
+  background-color: rgb(250, 154, 109);
+  border-color: rgb(163, 100, 70);
+  font-size: x-large;
+  font-weight: 600;
+}
+.tiler {
+  margin: 5%;
+}
+.tile-text {
+  text-align: center;
+  color: aqua;
+  text-decoration: none;
+  width: 100%;
+  height: 15.5vh;
+  background-color: #333;
+  transform: translate(0,82%);
+  border-radius: 25px;
+}
+.large-tile {
+  float: left;
+  border-radius: 25px;
+  min-width: 25%;
+  min-height: 30vh;
+  margin: 4.1%;
+  background-image: url(https://cdn.discordapp.com/attachments/715332913419255868/824321012890861578/image0.png);
+}
+.small-tile {
+  float: left;
+  border-radius: 3%;
+}
+.wide-tile {
+  float: left;
+  border-radius: 3%;
 }
