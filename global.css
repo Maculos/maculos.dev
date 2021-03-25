@@ -40,19 +40,21 @@ body {
   text-align: center;
   color: aqua;
   text-decoration: none;
-  width: 100%;
   height: 15.5vh;
-  background-color: #333;
-  transform: translate(0,82%);
+  border-radius: 25px;
+}
+.tile-img {
+  width: 100%;
+  height: 60%;
   border-radius: 25px;
 }
 .large-tile {
   float: left;
   border-radius: 25px;
-  min-width: 25%;
-  min-height: 30vh;
+  width: 25%;
+  height: 50%;
   margin: 4.1%;
-  background-image: url(https://cdn.discordapp.com/attachments/715332913419255868/824321012890861578/image0.png);
+  background-color: #333;
 }
 .small-tile {
   float: left;
