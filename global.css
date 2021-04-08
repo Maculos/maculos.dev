@@ -2,6 +2,9 @@ body {
   margin: 0px;
   background-color:#222;
 }
+a:link {
+  text-decoration: none;
+}
 .navBar {
   list-style-type: none;
   margin: 0px;
@@ -43,9 +46,6 @@ body {
   width: 100%;
   height: 15.5vh;
   border-radius: 25px;
-}
-.tile-link {
-  text-decoration: none;
 }
 .tile-img {
   width: 100%;
