@@ -28,7 +28,7 @@ a:link {
   text-decoration: none;
 }
 .navItem a:hover {
-  background-color: #333;
+  background-color: #2d2d2d;
 }
 .button {
   background-color: rgb(250, 154, 109);
